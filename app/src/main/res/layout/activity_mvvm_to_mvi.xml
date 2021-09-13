@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical"
+    tools:context=".presentation.mvvmToMVI.MvvmToMviActivity">
+    
+    
+    <EditText
+        android:id="@+id/ediTxt_userInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id" />
+    
+    <Button
+        android:id="@+id/btnFetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Data" />
+    
+    <TextView
+        android:id="@+id/txt_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hello World!"
+        android:padding="2dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/black"
+        android:visibility="invisible" />
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comment_resView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

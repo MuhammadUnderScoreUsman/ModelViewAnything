@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ModelViewAnything</string>
+    <string name="Mvp"> MVP</string>
+    <string name="mvpToMvi"> MVP to MVI</string>
+    <string name="mvvmToMvi"> MVVM to MVI</string>
+   
+</resources>
